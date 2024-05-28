@@ -13,13 +13,14 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import angular from "./tech/angular.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,6 +30,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import project from "./project.jpg"
+import allianz from "./company/allianz.svg";
+import firmusoft from "./company/firmusoft.png";
+import keralauniversity from "./company/keralauniversity.svg";
+import ust from "./company/ust.svg"
 
 export {
   logo,
@@ -45,6 +51,7 @@ export {
   git,
   html,
   javascript,
+  angular,
   mongodb,
   nodejs,
   reactjs,
@@ -59,4 +66,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  project,
+  ust,
+  allianz,
+  keralauniversity,
+  firmusoft
 };

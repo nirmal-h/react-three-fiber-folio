@@ -6,6 +6,7 @@ import { staggerContainer } from "../utils/motion";
 const SectionWrapper = (Component, idName) =>
   function HOC() {
     return (
+      <div className="bg-gradient-to-r from-slate-900 to-gray-900 antialiased">
       <motion.section
         variants={staggerContainer()}
         initial='hidden'
@@ -19,6 +20,7 @@ const SectionWrapper = (Component, idName) =>
 
         <Component />
       </motion.section>
+      </div>
     );
   };
 

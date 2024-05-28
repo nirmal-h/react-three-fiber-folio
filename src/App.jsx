@@ -16,9 +16,9 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <motion.div className="progress-bar z-10 bg-[#915EFF]" style={{ scaleX }} />
-    <div className="h-dvh relative z-0 bg-primary">
-      <div className="bg-gradient-to-r from-slate-900 to-gray-900 bg-cover bg-no-repeat bg-center">
+      <motion.div className="progress-bar z-10 bg-[#38bdf8]" style={{ scaleX }} />
+    <div className="h-dvh relative z-0 bg-gradient-to-r from-slate-900 to-gray-900 antialiased bg-cover bg-no-repeat bg-center">
+      <div className="">
       <Navbar />
       <Hero />
       </div>
